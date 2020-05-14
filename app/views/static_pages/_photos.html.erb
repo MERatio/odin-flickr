@@ -1,0 +1,23 @@
+<% @photos.each_slice(2) do |photo_x, photo_y| %>
+  <div class="row">
+    <% if photo_x %>
+      <div class="col-sm-6 mb-4">
+        <div class="card">
+        <a href=<%= photo_url(photo_x) %> target="_blank" rel="noopener noreferrer">
+          <%= image_tag photo_url(photo_x), class: 'card-img-top' %>
+        </a>
+        </div>
+      </div>
+    <% end %>
+    <% if photo_y %>
+      <div class="col-sm-6 mb-4">
+        <div class="card">
+          <a href=<%= photo_url(photo_y) %> target="_blank" rel="noopener noreferrer">
+            <%= image_tag photo_url(photo_y), class: 'card-img-top' %>
+          </a>
+        </div>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+

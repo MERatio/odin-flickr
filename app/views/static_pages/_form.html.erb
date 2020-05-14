@@ -1,0 +1,6 @@
+<%= form_with scope: :user, local: true, method: :get, url: root_path do |f| %>
+  <div class="form-group">
+    <%= f.text_field :id, id: 'user_id', class: 'form-control', placeholder: 'Flickr ID' %>
+  </div>
+  <%= f.submit 'Search', class: 'btn btn-primary btn-block' %>
+<% end %>
