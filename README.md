@@ -1,24 +1,3 @@
-# README
+# Odin Flickr
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A simple photo widget that allows user to display photos from a Flickr feed. This project focuses on building an app using a third party API. More information on [The Odin Project](https://www.theodinproject.com/lessons/apis#project-2-using-a-third-party-api).
